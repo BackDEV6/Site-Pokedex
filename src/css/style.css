@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "PixelOperator";
+  src: url("./fontes/fonte-pixel/PixelOperator.ttf");
+}
+@font-face {
+  font-family: "PixelOperator-Bold";
+  src: url("./fontes/fonte-pixel/PixelOperator-Bold.ttf");
+}
+
+body {
+  margin: 0 auto;
+  font-family: "PixelOperator";
+  max-width: 1280px;
+  background-color: #5e5b5bad;
+  color: #333333;
+}
+body.modo-escuro {
+  font-family: "PixelOperator";
+  background-color: #212121;
+  color: #f5f5f5;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.cabecalho .logo,
+.cabecalho .img-botao {
+  height: 30px;
+  transition: 0.2s ease-in-out;
+}
+.cabecalho .logo:hover,
+.cabecalho .img-botao:hover {
+  transform: scale(1.3);
+}
+.cabecalho #botao-alterar-tema {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+main {
+  padding: 25px 0;
+}
+.listagem-pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.listagem-pokemon .cartao-pokemon {
+  background-color: #d8e3ec;
+  border-radius: 15px;
+  width: 200px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+
+.listagem-pokemon .cartao-pokemon:hover {
+  transform: scale(1.1);
+  background-color: #96d9d6;
+}
+
+.modo-escuro .cartao-pokemon {
+  background-color: #474040;
+}
+.modo-escuro .cartao-pokemon:hover {
+  background-color: #192726;
+}
+
+main .cartao-pokemon span {
+  padding: 2px;
+}
+main .cartao-pokemon .informacoes {
+  font-family: "PixelOperator-Bold";
+  display: flex;
+  border-style: solid;
+  justify-content: center;
+  margin: 2px;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+main .cartao-pokemon .gif {
+  height: 90px;
+  width: 90px;
+  margin: 10px 0;
+}
+
+main .cartao-pokemon .tipos {
+  display: flex;
+  gap: 15px;
+}
+
+main .cartao-pokemon .tipo {
+  border-radius: 6px;
+  padding: 6px;
+  font-family: "PixelOperator-Bold";
+}
+
+.grama {
+  background-color: #9bcc50;
+}
+.veneno {
+  background-color: #b97fc9;
+}
+.fogo {
+  background-color: #fd7d24;
+}
+.voador {
+  background: linear-gradient(
+    0deg,
+    rgba(189, 185, 184, 1) 50%,
+    rgba(189, 185, 184, 1) 50%,
+    rgba(0, 128, 252, 1) 50%
+  );
+}
+.agua {
+  background-color: #4592c4;
+}
+.inseto {
+  background-color: #729f3f;
+}
+
+main .descricao {
+  font-size: 18px;
+  max-height: 80px;
+  overflow-y: scroll;
+}
+
+.rodape {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape .github_logo {
+  width: 40px;
+  transition: 0.2s ease-in-out;
+}
+.rodape .github_logo:hover {
+  transform: scale(0.8);
+}
+.rodape .agradecimentos {
+  text-align: center;
+  font-family: "PixelOperator-Bold";
+}

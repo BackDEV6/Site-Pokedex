@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/scrollbar.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/pokeball.ico"
+      type="image/x-icon"
+    />
+
+    <title>Pokedéx</title>
+  </head>
+  <body class="modo-escuro">
+    <header class="cabecalho">
+      <a
+        href="https://www.youtube.com/watch?v=1m6en0SQNFs&ab_channel=georgemichaelVEVO"
+        target="_blank"
+      >
+        <img src="./src/img/pokeball.png" alt="pokebola" class="logo" />
+      </a>
+
+      <button id="botao-alterar-tema">
+        <img src="./src/img/moon.png" alt="imagem do sol" class="img-botao" />
+      </button>
+    </header>
+
+    <main>
+      <ul class="listagem-pokemon">
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Bulbasaur</span>
+            <span>#001</span>
+          </div>
+
+          <img
+            src="./src/img/bulbasaur.gif"
+            alt="bulbasaur pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo grama">Grama</li>
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Há uma semente de planta em suas costas desde o dia que este
+              Pókemon nasce. A semente cresce lentamente.
+            </p>
+          </div>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Ivysaur</span>
+            <span>#002</span>
+          </div>
+
+          <img src="./src/img/ivysaur.gif" alt="ivysaur pokemon" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo grama">Grama</li>
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Quando o bulbo em suas costas cresce, parece perder a capacidade
+              de ficar de pé em suas patas traseiras.
+            </p>
+          </div>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Venusaur</span>
+            <span>#003</span>
+          </div>
+
+          <img
+            src="./src/img/venusaur.gif"
+            alt="venusaur pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo grama">Grama</li>
+            <li class="tipo veneno">Veneno</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Sua planta floresce quando está absorvendo energia solar. Ele
+              permanece em movimento para buscar a luz solar.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Charmander</span>
+            <span>#004</span>
+          </div>
+
+          <img
+            src="./src/img/charmander.gif"
+            alt="charmander pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo fogo">Fogo</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Tem preferência por coisas quentes. Quando chove, diz-se que o
+              vapor jorra da ponta de sua cauda.
+            </p>
+          </div>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Charmeleon</span>
+            <span>#005</span>
+          </div>
+
+          <img
+            src="./src/img/charmeleon.gif"
+            alt="charmeleon pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo fogo">Fogo</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda
+              ardente e corta com garras afiadas.
+            </p>
+          </div>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Charizard</span>
+            <span>#006</span>
+          </div>
+
+          <img
+            src="./src/img/charizard.gif"
+            alt="charizard pokemon"
+            class="gif"
+            id="charizard"
+          />
+
+          <ul class="tipos">
+            <li class="tipo fogo">Fogo</li>
+            <li class="tipo voador">Voador</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Ele cospe fogo que é quente o suficiente para derreter
+              pedregulhos. Pode causar incêndios florestais soprando chamas.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Squirtle</span>
+            <span>#007</span>
+          </div>
+
+          <img
+            src="./src/img/squirtle.gif"
+            alt="squirtle pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo agua">Água</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Quando ele retrai seu longo pescoço em sua concha, ele esguicha
+              água com força vigorosa.
+            </p>
+          </div>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Wartortle</span>
+            <span>#008</span>
+          </div>
+
+          <img
+            src="./src/img/wartortle.gif"
+            alt="wartortle pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo agua">Água</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              É reconhecido como um símbolo de longevidade. Se sua concha tem
+              algas, esse Wartortle é muito antigo.
+            </p>
+          </div>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Blastoise</span>
+            <span>#009</span>
+          </div>
+
+          <img
+            src="./src/img/blastoise.gif"
+            alt="blastoise pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo agua">Água</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios.
+              Em uma pitada, ele se retirará dentro de sua concha.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Caterpie</span>
+            <span>#010</span>
+          </div>
+
+          <img
+            src="./src/img/caterpie.gif"
+            alt="caterpie pokemon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo inseto">Inseto</li>
+          </ul>
+
+          <div class="descricao">
+            <p class="texto-descricao">
+              Para proteção, ele libera um fedor horrível da antena em sua
+              cabeça para afastar os inimigos.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="rodape">
+      <a href="https://github.com/BackDEV6" target="_blank">
+        <img
+          src="./src/img/Github_icon.png"
+          alt="github logo"
+          class="github_logo"
+        />
+      </a>
+      <p class="agradecimentos">
+        Gostou do site? você pode acessar o repositório dele através do meu
+        Github, aproveita e deixa uma estrela na página, obrigado por vim aqui.
+      </p>
+    </footer>
+
+    <script src="./src/js/index.js" type="text/javascript"></script>
+  </body>
+</html>
