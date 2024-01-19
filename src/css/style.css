@@ -133,7 +133,7 @@ main .descricao {
   max-height: 80px;
   overflow-y: scroll;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1.5px;
   border-color: #4592c4;
 }
 
